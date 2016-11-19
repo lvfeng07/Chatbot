@@ -1,8 +1,8 @@
 ---
 applications:
-- name: webchatbot
+- name: lvfeng07chat
   path: target/Chatbot-0.0.1.war
   buildpack: liberty-for-java
   env:
-    CONVERSATION_WORKSPACE_ID: 2e38d5ef-7506-4e38-804e-e83f3cbe6926
-    CAR_SERVICE_HOST: webchatbotcar.mybluemix.net
+    CONVERSATION_WORKSPACE_ID: c5bd7f8b-6f99-404a-be8a-25b1b9313cc7 
+    CAR_SERVICE_HOST: lvfeng07car.mybluemix.net
